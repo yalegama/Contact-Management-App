@@ -1,22 +1,14 @@
-import React , {useState} from 'react';
+import React from 'react';
 import './sample.css';
-
 
 function Sample() {
 
-    function GreenComponent(props){
-        return(
-            <div>
-                <h1>Hello World {props.name}</h1>
-            {props.children}
-            </div>
-        );
-    }
-
-
-  return (
-      <GreenComponent name="Nadun" children="abcd"/>
-  );
+   return (
+       <div>
+           <h1>Hello World</h1>
+           <p>In Sri Lanka</p>
+       </div>
+   );
 
 
 }
