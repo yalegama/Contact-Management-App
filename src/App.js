@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-    <Sample/>
+    <Sample name="nadun" age="25"/>
   );
 }
 
